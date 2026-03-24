@@ -1,0 +1,9 @@
+def sum_list(numbers):
+    """Return the sum of a list of numbers."""
+    total = 0
+    for num in numbers:
+        total += num
+    return total
+
+# Test
+print(sum_list([1, 2, 3, 4]))  # Output: 10
